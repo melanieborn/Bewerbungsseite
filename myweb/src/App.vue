@@ -1,18 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <LebensLauf msg="Lebnslauf und Skills"></LebensLauf>
+  <StartSeite></StartSeite>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import LebensLauf from './components/Lebenslauf.vue'
+import StartSeite from './components/StartSeite.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    LebensLauf
+    StartSeite,
   }
 }
 </script>
