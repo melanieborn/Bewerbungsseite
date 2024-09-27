@@ -2,28 +2,34 @@
 <v-container>
     <v-row class="oben">
         <v-col cols="12">
-            <p class="name"> BeWerbungsSeite </p>
-            <p> Melanie Bornkessel Junior Frontend Entwicklerin </p>
+            <p class="name"> BeWERBUNGseite </p>
+            <p class="date">  {{ timestamp }} </p>
         </v-col>
     </v-row>
     <v-row>
-        <v-col cols="4" class="bild">
-            <h1> Herzlich Willkommen </h1>
-            <img class="bild1" src="@/assets/Bild1.jpg">
+        <v-col cols="4">
+          <p  class="bild"> Sie befinden sich hier: Startseite </p>
+            <h1> Melanie Bornkessel </h1>
+            <p> Junior Frontend Entwicklerin </p>
+            <img class="bild1" src="@/assets/Tastatur.jpg">
+            <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
         </v-col>
-        <v-col cols="8" class="rechts">
-            <p> Ich begrüße Sie herzlich auf meiner BeWerbungsSeite </p>
-            <p> Es freut mich, daß ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+        <v-col cols="8" >
+            <h1 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h1>
+            <p class="links"> Es freut mich, daß ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>
-            <p> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+            <br />
+            <p class="links"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
                 Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne telefonisch, per e-mail oder 
                 über das Kontaktformular.
                 Gerne kann ich Ihnen auch einen detaillierten Lebenslauf zukommen lassen.
             </p>
-            <p> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
-            <p> Viele Grüße </p>
-            <p> Melanie Bornkessel </p>
+            <br />
+            <p class="links"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
+            <br />
+            <p class="links"> Viele Grüße </p>
+            <p class="links"> Melanie Bornkessel </p>
 
 
         </v-col>
@@ -36,7 +42,22 @@
     name: 'StartSeite',
     props: {
       msg: String
-    }
+    },
+    data() {
+    return { timestamp: " " }
+  },
+    created() {
+              setInterval(this.getNow, 1000);
+            },
+    methods: {
+            getNow: function() {
+                    const today = new Date();
+                    const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+/*                     const time = today.getHours() + ":" + today.getMinutes() + ":";
+ */                    const dateTime = date;
+                    this.timestamp = dateTime;
+                }
+            }
   }
   </script>
   
@@ -57,7 +78,7 @@
     color: #42b983;
   }
   .oben {
-    background-color: #42b983;
+    background-color: brown;
   }
   .name {
     text-align: left;
@@ -66,13 +87,22 @@
     font-weight: bold;
   }
   .bild {
-    background-color: beige;
+    text-align: left;
+    font-size: 10px;
   }
   .rechts {
-    background-color: blue;
+    text-align: center;
+    margin-bottom: 20px;
   }
   .bild1 {
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .links {
+    text-align: left;
+  }
+  .date {
+    text-align: right;
   }
   </style>
   
