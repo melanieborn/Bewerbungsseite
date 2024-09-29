@@ -1,15 +1,19 @@
 <template>
   <StartSeite></StartSeite>
+  <FooterComponent></FooterComponent>
 </template>
 
 <script>
 import StartSeite from './components/StartSeite.vue'
+import FooterComponent from './components/FooterComponent.vue'
+
 
 
 export default {
   name: 'App',
   components: {
     StartSeite,
+    FooterComponent
   }
 }
 </script>

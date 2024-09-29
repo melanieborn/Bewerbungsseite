@@ -1,17 +1,22 @@
 <template>
-    <div class="hello">
-      <h1>{{ msg }}</h1>
-      <p>
-        For a guide and recipes on how to configure / customize this project,<br>
-        check out the
-      </p>
-
-    </div>
+    <v-container>
+      <v-card variant="text">
+        <v-card-text>
+          <v-row class="card">
+            <v-col cols="12">
+      <a>
+        Diese Seite wurde von mir mit JavaScript, vue.js und vuetify als GitHub Projekt erstellt
+      </a>
+    </v-col>
+    </v-row>
+    </v-card-text>
+    </v-card>
+    </v-container>
   </template>
   
   <script>
   export default {
-    name: 'LebensLauf',
+    name: 'FooterComponent',
     props: {
       msg: String
     }
@@ -32,7 +37,10 @@
     margin: 0 10px;
   }
   a {
-    color: #42b983;
+    color:  black;
+  }
+  .card {
+    background-color: gray;
   }
   </style>
   

@@ -2,7 +2,7 @@
 <v-container>
     <v-row class="oben">
         <v-col cols="12">
-            <p class="name"> BeWERBUNGseite </p>
+            <p class="name"> BeWERBUNGsseite </p>
             <p class="date">  {{ timestamp }} </p>
         </v-col>
     </v-row>
@@ -29,7 +29,7 @@
             <p class="links"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
             <br />
             <p class="links"> Viele Grüße </p>
-            <p class="links"> Melanie Bornkessel </p>
+            <p class="sign"> Melanie Bornkessel </p>
 
 
         </v-col>
@@ -103,6 +103,9 @@
   }
   .date {
     text-align: right;
+  }
+  .sign {
+    font-family: Lucida Handwriting;
   }
   </style>
   
