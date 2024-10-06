@@ -2,26 +2,21 @@
     <v-container class="hello">
         <v-card>
             <v-row class="oben">
+              <v-card-text>
         <v-col cols="12">
             <p class="name"> BeWERBUNGsseite </p>
             <p class="date">  {{ timestamp }} </p>
         </v-col>
+        <nav>
+    <RouterLink to="/">Startseite</RouterLink>
+    <RouterLink to="/about">Über mich</RouterLink>
+
+  </nav>
+</v-card-text>
     </v-row>
-    <v-tabs v-model="tab" bg-color="primary">
-      <v-tab value="one">Item One</v-tab>
-      <v-tab value="two">Item Two</v-tab>
-      <v-tab value="three">Item Three</v-tab>
-    </v-tabs>
-
-    <v-card-text>
-      <v-tabs-window v-model="tab">
-        <v-tabs-window-item value="one"> One </v-tabs-window-item>
-
-        <v-tabs-window-item value="two"> Two </v-tabs-window-item>
-
-        <v-tabs-window-item value="three"> Three </v-tabs-window-item>
-      </v-tabs-window>
-    </v-card-text>
+  <main>
+    <RouterView />
+  </main>
   </v-card>
     </v-container>
   </template>
@@ -34,9 +29,24 @@
     props: {
       msg: String
     },
-    data() {
-    return {tab: null}
-    }
+    data: () => ({
+        timestamp: " "
+    }),
+    created() {
+              setInterval(this.getNow, 1000);
+            },
+    methods: {
+    goToAbout() {
+      this.$router.push('/')
+    },
+    getNow: function() {
+                    const today = new Date();
+                    const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+/*                     const time = today.getHours() + ":" + today.getMinutes() + ":";
+ */                    const dateTime = date;
+                    this.timestamp = dateTime;
+                }
+  },
   }
   </script>
   

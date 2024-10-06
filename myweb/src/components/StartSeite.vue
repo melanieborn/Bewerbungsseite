@@ -1,11 +1,11 @@
 <template>
 <v-container>
-    <v-row class="oben">
+<!--      <v-row class="oben">
         <v-col cols="12">
             <p class="name"> BeWERBUNGsseite </p>
             <p class="date">  {{ timestamp }} </p>
         </v-col>
-    </v-row>
+    </v-row>  -->
     <v-row>
         <v-col cols="4">
           <p  class="bild"> Sie befinden sich hier: Startseite </p>
