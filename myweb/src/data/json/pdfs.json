@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "name": "here",
+        "language": "DE",
+        "content": "Sie befinden sich hier: Zeugnis und Zertifikat"
+      },
+      {
+        "name": "zeugnis",
+        "language": "DE",
+        "content": "Zeugnis:"
+      },
+      {
+        "name": "zertifikate",
+        "language": "DE",
+        "content": "Scrum"
+      },
+      {
+        "name": "wichtige_zeugnis",
+        "language": "DE",
+        "content": "Hier stelle ich Ihnen mein letztes Zeugnis und mein Scrum Zertifikat vor:"
+      },
+      {
+        "name": "hinweis_linked",
+        "language": "DE",
+        "content": "Informieren Sie sich auch auf meinem LinkesIn Profil"
+      },
+      {
+        "name": "link_linked",
+        "language": "DE",
+        "content": "LinkedIn link"
+      }
+    ]
+  }

@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "name": "title",
+        "language": "DE",
+        "content": "BeWERBUNGsseite"
+      },
+      {
+        "name": "button_1",
+        "language": "DE",
+        "content": "Startseite"
+      },
+      {
+        "name": "button_2",
+        "language": "DE",
+        "content": "Über mich"
+      },
+      {
+        "name": "button_3",
+        "language": "DE",
+        "content": "Kenntnisse"
+      },
+      {
+        "name": "button_4",
+        "language": "DE",
+        "content": "Zeugnis"
+      },
+      {
+        "name": "button_5",
+        "language": "DE",
+        "content": "Kontakt"
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+    "data": [
+      {
+        "name": "here",
+        "language": "DE",
+        "content": "Sie befinden sich hier: Kontakt"
+      },
+      {
+        "name": "telefon_mobile",
+        "language": "DE",
+        "content": "01575-4900553"
+      },
+      {
+        "name": "title_mobile",
+        "language": "DE",
+        "content": "Handy:"
+      },
+      {
+        "name": "festnetz",
+        "language": "DE",
+        "content": "030/55235339"
+      },
+      {
+        "name": "title_festnetz",
+        "language": "DE",
+        "content": "Festnetz:"
+      },
+      {
+        "name": "title_mail",
+        "language": "DE",
+        "content": "E-mail:"
+      },
+      {
+        "name": "email",
+        "language": "DE",
+        "content": "melanie.bornkessel@web.de"
+      },
+      {
+        "name": "title_linked",
+        "language": "DE",
+        "content": "Hier kommt der LinkedIn link hin"
+      }
+    ]
+  }

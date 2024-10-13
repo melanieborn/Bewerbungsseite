@@ -1,0 +1,9 @@
+{
+    "data": [
+      {
+        "name": "footer",
+        "language": "DE",
+        "content": "Diese Seite wurde von mir mit JavaScript, vue.js und vuetify als GitHub Projekt erstellt"
+      }
+    ]
+  }

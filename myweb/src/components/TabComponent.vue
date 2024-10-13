@@ -1,5 +1,6 @@
 <template>
     <v-container class="hello">
+      <button @click="goToAbout">Go to About</button>
         <v-card>
             <v-row class="oben">
               <v-card-text>
@@ -22,8 +23,15 @@
   </template>
   
   <script>
+/* import checkoutNextStepJson from '@/data/json/checkout/checkoutNextStep.json' */
 
-  
+/* data: vm => ({
+    content: checkoutNextStepJson.data,
+    loading: false,
+    error: false,
+    paid: false,
+    panel: vm.disabled ? -1 : 0 // default active-panel (-1 = non selected, 0 = first selected)
+  }), */
   export default {
     name: 'TabComponent',
     props: {

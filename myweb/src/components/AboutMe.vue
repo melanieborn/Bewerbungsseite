@@ -10,14 +10,13 @@
             </v-col>
             <v-col cols="8">
               <h3>Über mich</h3>
-                <a>Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin und möchte mich Ihnen
-                  hier vorstellen.
+                <a>Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
                   Amt für kommunale Filmarbeit und dem Max-Ophüls-Preis der Landeshauptstadt Saarbrücken 
                 sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
                 zuständig. 
                 Auch privat habe ich mich immer für Technik und Programmierung interessiert. Mit meinem
-                Umzug nach Berlin habe ich dann die Möglichkeit erhalten in den technischen Bereich zu 
+                Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
                 wechseln.
                 Nach einem Arbeitsunfall auf Montage als Servicetechnikerin der Telekom konnte ich endlich
                 meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
@@ -29,8 +28,6 @@
                 Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
                 einen ausführlichen Lebenslauf zukommen.
                 </a>
-  
-    
             </v-col>
         </v-row>
     </v-container>

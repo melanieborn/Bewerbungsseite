@@ -1,0 +1,54 @@
+{
+    "data": [
+      {
+        "name": "name",
+        "language": "DE",
+        "content": "Melanie Bornkessel"
+      },
+      {
+        "name": "job",
+        "language": "DE",
+        "content": "Frontend Entwicklerin"
+      },
+      {
+        "name": "here",
+        "language": "DE",
+        "content": "Sie befinden sich hier: Startseite"
+      },
+      {
+        "name": "zitat",
+        "language": "DE",
+        "content": "Wenn es holprig wird schnallt man sich an, und steigt nicht aus"
+      },
+      {
+        "name": "title",
+        "language": "DE",
+        "content": "Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite"
+      },
+      {
+        "name": "absatz1",
+        "language": "DE",
+        "content": "Es freut mich, daß ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der Erkundung meiner Seite."
+      },
+      {
+        "name": "absatz2",
+        "language": "DE",
+        "content": "Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne telefonisch oder per e-mail."
+      },
+      {
+        "name": "ende1",
+        "language": "DE",
+        "content": "Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht."
+      },
+      {
+        "name": "gruesse",
+        "language": "DE",
+        "content": "Viele Grüße "
+      },
+      {
+        "name": "unterschrift",
+        "language": "DE",
+        "content": "Melanie Bornkessel"
+      }
+    ]
+  }

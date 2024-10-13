@@ -1,0 +1,54 @@
+{
+    "data": [
+      {
+        "name": "here",
+        "language": "DE",
+        "content": "Sie befinden sich hier: Kentnisse"
+      },
+      {
+        "name": "programmierung",
+        "language": "DE",
+        "content": "JavaScript, HTML, CSS, JSON, Phyton, PHP, MySql, Ajax, npm"
+      },
+      {
+        "name": "title_programmierung",
+        "language": "DE",
+        "content": "Programmierung:"
+      },
+      {
+        "name": "title_frameworks",
+        "language": "DE",
+        "content": "Frameworks:"
+      },
+      {
+        "name": "frameworks",
+        "language": "DE",
+        "content": "Vue.js, vuetify, Laravel, Bootstrap"
+      },
+      {
+        "name": "title_sonstiges",
+        "language": "DE",
+        "content": "Sonstiges:"
+      },
+      {
+        "name": "sonstiges",
+        "language": "DE",
+        "content": "Scrum, Azur, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken, automatisierte Integrationtest"
+      },
+      {
+        "name": "wichtige_kentnisse",
+        "language": "DE",
+        "content": "Hier stelle ich Ihnen meine wichtigsten Kenntnisse vor."
+      },
+      {
+        "name": "hinweis_linked",
+        "language": "DE",
+        "content": "Informieren Sie sich auch auf meinem LinkesIn Profil"
+      },
+      {
+        "name": "link_linked",
+        "language": "DE",
+        "content": "LinkedIn link"
+      }
+    ]
+  }
