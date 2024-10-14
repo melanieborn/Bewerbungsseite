@@ -1,6 +1,5 @@
 <template>
     <v-container class="hello">
-      <button @click="goToAbout">Go to About</button>
         <v-card>
             <v-row class="oben">
               <v-card-text>
@@ -9,9 +8,14 @@
             <p class="date">  {{ timestamp }} </p>
         </v-col>
         <nav>
-    <RouterLink to="/">Startseite</RouterLink>
-    <RouterLink to="/about">Über mich</RouterLink>
+          <v-col>
+            <button @click="goToStart">Startseite</button>
+            <button @click="goToAbout">Go to About</button>
+            <button @click="goToKenntnisse">Kenntnisse</button>
 
+<!--     <RouterLink to="/">Startseite</RouterLink>
+    <RouterLink to="/about">Über mich</RouterLink>
+ -->  </v-col>
   </nav>
 </v-card-text>
     </v-row>
@@ -45,7 +49,13 @@
             },
     methods: {
     goToAbout() {
+      this.$router.push('/about')
+    },
+    goToStart() {
       this.$router.push('/')
+    },
+    goToKenntnisse() {
+      this.$router.push('/kenntnisse')
     },
     getNow: function() {
                     const today = new Date();
