@@ -2,10 +2,10 @@
     <v-container>
         <v-row>
             <v-col cols="4">
-              <p  class="bild"> Sie befinden sich hier: Kentnisse" </p>
+              <p  class="bild"> Sie befinden sich hier: Kontakt" </p>
                 <h1> Melanie Bornkessel </h1>
                 <p>Frontend Entwicklerin </p>
-                <p>LinkedIn link</p>
+                <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             </v-col>
             <v-col cols="8" >
                 <h3 class="rechts"> Hier stelle ich Ihnen meine wichtigsten Kenntnisse vor </h3>

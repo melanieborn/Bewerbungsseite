@@ -38,13 +38,17 @@
   </template>
   
   <script>
+  import testJson from '@/data/json/test.json'
+
   export default {
     name: 'StartSeite',
     props: {
       msg: String
     },
     data() {
-    return { timestamp: " " }
+    return { timestamp: " ",
+      test: testJson
+     }
   },
     created() {
               setInterval(this.getNow, 1000);

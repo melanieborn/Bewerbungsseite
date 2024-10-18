@@ -9,9 +9,10 @@
         </v-col>
         <nav>
           <v-col>
-            <button @click="goToStart">Startseite</button>
-            <button @click="goToAbout">Go to About</button>
-            <button @click="goToKenntnisse">Kenntnisse</button>
+            <v-btn variant="text" @click="goToStart" class="button">Startseite</v-btn>
+            <v-btn variant="text" @click="goToAbout" class="button">Go to About</v-btn>
+            <v-btn variant="text" @click="goToKenntnisse" class="button">Kenntnisse</v-btn>
+            <v-btn variant="text" @click="goToKontakt">Kontakt</v-btn>
 
 <!--     <RouterLink to="/">Startseite</RouterLink>
     <RouterLink to="/about">Über mich</RouterLink>
@@ -57,6 +58,12 @@
     goToKenntnisse() {
       this.$router.push('/kenntnisse')
     },
+    goToPdf() {
+      this.$router.push('/showPdf')
+    },
+    goToKontakt() {
+      this.$router.push('/kontakt')
+    },
     getNow: function() {
                     const today = new Date();
                     const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -89,6 +96,15 @@
     color: red;
     font-size: 30px;
     font-weight: bold;
+  }
+  .date {
+    text-align: right;
+  }
+  .button {
+    margin-right: 5px;
+  }
+  .vbtn {
+    background-color: brown;
   }
   </style>
   
