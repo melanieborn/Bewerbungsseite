@@ -8,32 +8,32 @@
                 <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             </v-col>
             <v-col cols="8" >
-                <h3 class="rechts"> Hier stelle ich Ihnen meine wichtigsten Kenntnisse vor </h3>
+                <h3 class="rechts"> Meine Kontakt Daten</h3>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-               <p class="prog"> Programmierung </p>
+               <p class="prog"> Mobil </p>
             </v-col>
             <v-col cols="8">
-               <p class="kent"> JavaScript, HTML, CSS, JSON, Phyton, PHP, MySql, Ajax, npm </p>
+                <v-icon>mdi-phone</v-icon>           
+               <p> 01575 - 4900553 </p>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog"> Frameworks </p>
+              <p class="prog"> Festnetz </p>
             </v-col>
             <v-col cols="8">
-              <p class="kent"> Vue.js, vuetify, Laravel, Bootstrap </p>
+              <p> 030 - .... </p>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog"> Sonstiges </p>
+              <p class="prog"> e-mail </p>
             </v-col>
             <v-col cols="8">
-              <p class="kent"> Scrum, Azur, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken,
-                 automatisierte Integrationtest, Swagger </p>
+                <a class="kent" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
             </v-col>
         </v-row>
     </v-container>
@@ -83,6 +83,7 @@
       .kent {
         text-align: left;
         font-size: 25px;
+        align-items: left;
       }
       .rechts {
         font-size: 20px;
