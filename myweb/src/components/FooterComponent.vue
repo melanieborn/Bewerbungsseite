@@ -40,7 +40,7 @@
     color:  black;
   }
   .card {
-    background-color: gray;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
   }
   </style>
   

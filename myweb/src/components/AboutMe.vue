@@ -5,8 +5,8 @@
               <p  class="bild"> Sie befinden sich hier: Über mich </p>
                 <h1> Melanie Bornkessel </h1>
                 <p> Junior Frontend Entwicklerin </p>
-                <img class="bild1" src="@/assets/Tastatur.jpg">
-                <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
+                <img class="bild1" src="@/assets/foto.jpg">
+                <p> Gerne sende ich Ihnen meinen aktuellen Lebenslauf zu </p>
             </v-col>
             <v-col cols="8">
               <h3>Über mich</h3>
@@ -14,20 +14,26 @@
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
                   Amt für kommunale Filmarbeit und dem Max-Ophüls-Preis der Landeshauptstadt Saarbrücken 
                 sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
-                zuständig. 
+                zuständig.  </a> <br />
+                <a>
                 Auch privat habe ich mich immer für Technik und Programmierung interessiert. Mit meinem
                 Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
-                wechseln.
+                wechseln.</a>
+                <br />
+                <a>
                 Nach einem Arbeitsunfall auf Montage als Servicetechnikerin der Telekom konnte ich endlich
                 meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
                 erfolgreich absolvieren.
+              </a>  <br />
+              <a>
                 Während 2 Praktikas habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS gearbeitet.
                 Bei der FP DBS habe ich als Frontend- und Backendentwicklerin gearbeitet und war in einem
                 Team zur Erstellung automatisierter Integrationtests mit python. Spezialisiert habe ich mich 
                 auf die Frontendentwicklung in der ich mich weiterentwickeln möchte. 
                 Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
                 einen ausführlichen Lebenslauf zukommen.
-                </a>
+              </a>
+              
             </v-col>
         </v-row>
     </v-container>
@@ -57,7 +63,7 @@
         margin: 0 10px;
       }
       a {
-        color: #42b983;
+        text-align: left !important;
       }
       .oben {
         background-color: brown;

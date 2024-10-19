@@ -10,7 +10,7 @@
         <v-col cols="4">
           <p  class="bild"> Sie befinden sich hier: Startseite </p>
             <h1> Melanie Bornkessel </h1>
-            <p> Junior Frontend Entwicklerin </p>
+            <p>  Frontend Entwicklerin </p>
             <img class="bild1" src="@/assets/Tastatur.jpg">
             <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
         </v-col>
@@ -21,8 +21,7 @@
             </p>
             <br />
             <p class="links"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
-                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne telefonisch, per e-mail oder 
-                über das Kontaktformular.
+                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne telefonisch oder per e-mail.
                 Gerne kann ich Ihnen auch einen detaillierten Lebenslauf zukommen lassen.
             </p>
             <br />

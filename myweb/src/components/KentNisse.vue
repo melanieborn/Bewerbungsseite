@@ -5,7 +5,8 @@
               <p  class="bild"> Sie befinden sich hier: Kentnisse" </p>
                 <h1> Melanie Bornkessel </h1>
                 <p>Frontend Entwicklerin </p>
-                <p>LinkedIn link</p>
+                <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
+
             </v-col>
             <v-col cols="8" >
                 <h3 class="rechts"> Hier stelle ich Ihnen meine wichtigsten Kenntnisse vor </h3>
@@ -32,7 +33,7 @@
               <p class="prog"> Sonstiges </p>
             </v-col>
             <v-col cols="8">
-              <p class="kent"> Scrum, Azur, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken,
+              <p class="kent"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken,
                  automatisierte Integrationtest, Swagger </p>
             </v-col>
         </v-row>
@@ -75,7 +76,7 @@
         font-weight: bold;
       }
       .prog {
-        background-color: rgb(24, 192, 97);
+        background-color: #BC70A4;
         border-radius: 12px;
         padding: 5px;
         font-weight: bold;

@@ -8,21 +8,23 @@
                 <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             </v-col>
             <v-col cols="8" >
-                <h3 class="rechts"> Meine Kontakt Daten</h3>
+                <h3 class="rechts"> Sie möchten Kontakt mit mir aufnehmen? </h3>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
                <p class="prog"> Mobil </p>
             </v-col>
-            <v-col cols="8">
-                <v-icon>mdi-phone</v-icon>           
+            <v-col cols="1" class="colalign1">
+                <v-icon>mdi-phone</v-icon> 
+            </v-col>      
+            <v-col cols="4" class="colalign">  
                <p> 01575 - 4900553 </p>
-            </v-col>
+            </v-col>  
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog"> Festnetz </p>
+              <p class="prog"> <v-icon>mdi-phone-classic</v-icon>  Festnetz </p>
             </v-col>
             <v-col cols="8">
               <p> 030 - .... </p>
@@ -33,6 +35,7 @@
               <p class="prog"> e-mail </p>
             </v-col>
             <v-col cols="8">
+                <v-icon>mdi-email</v-icon>  
                 <a class="kent" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
             </v-col>
         </v-row>
@@ -75,7 +78,7 @@
         font-weight: bold;
       }
       .prog {
-        background-color: rgb(24, 192, 97);
+        background-color: #BFD641;
         border-radius: 12px;
         padding: 5px;
         font-weight: bold;
@@ -84,6 +87,7 @@
         text-align: left;
         font-size: 25px;
         align-items: left;
+        margin-left: 5px;
       }
       .rechts {
         font-size: 20px;
@@ -91,6 +95,15 @@
       .bild {
         text-align: left;
         font-size: 10px;
+      }
+      .colalign {
+        text-align: left;
+      }
+      .colalign1 {
+        text-align: right;
+      }
+      .backim {
+        background-image: url(@/assets/comic.jpg)
       }
       </style>
       

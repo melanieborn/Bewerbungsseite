@@ -1,6 +1,7 @@
 <template>
     <v-container class="hello">
-        <v-card>
+        <v-card
+        elevation="0">
             <v-row class="oben">
               <v-card-text>
         <v-col cols="12">
@@ -10,13 +11,11 @@
         <nav>
           <v-col>
             <v-btn variant="text" @click="goToStart" class="button">Startseite</v-btn>
-            <v-btn variant="text" @click="goToAbout" class="button">Go to About</v-btn>
+            <v-btn variant="text" @click="goToAbout" class="button">Über mich</v-btn>
             <v-btn variant="text" @click="goToKenntnisse" class="button">Kenntnisse</v-btn>
-            <v-btn variant="text" @click="goToKontakt">Kontakt</v-btn>
+            <v-btn variant="text" @click="goToKontakt" class="button">Kontakt</v-btn>
 
-<!--     <RouterLink to="/">Startseite</RouterLink>
-    <RouterLink to="/about">Über mich</RouterLink>
- -->  </v-col>
+  </v-col>
   </nav>
 </v-card-text>
     </v-row>
@@ -89,19 +88,21 @@
     margin: 0 10px;
   }
   .oben {
-    background-color: brown;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
   }
   .name {
     text-align: left;
-    color: red;
+    color: grey;
     font-size: 30px;
     font-weight: bold;
   }
   .date {
     text-align: right;
+    color: grey;
   }
   .button {
     margin-right: 5px;
+    color: red;
   }
   .vbtn {
     background-color: brown;
