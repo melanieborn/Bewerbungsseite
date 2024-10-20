@@ -102,7 +102,7 @@
   }
   .button {
     margin-right: 5px;
-    color: red;
+    color: black
   }
   .vbtn {
     background-color: brown;
