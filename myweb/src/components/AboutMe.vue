@@ -5,7 +5,7 @@
               <p  class="bild"> Sie befinden sich hier: Über mich </p>
                 <h1> Melanie Bornkessel </h1>
                 <p> Junior Frontend Entwicklerin </p>
-                <img class="bild1" src="@/assets/foto.jpg">
+                <img class="bild1" src="@/assets/draussen2.jpg">
                 <p> Gerne sende ich Ihnen meinen aktuellen Lebenslauf zu </p>
             </v-col>
             <v-col cols="8">

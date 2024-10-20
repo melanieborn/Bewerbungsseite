@@ -11,8 +11,6 @@ const routes = [
   { path: '/about', component: AboutMe },
   { path: '/kenntnisse', component: KentNisse },
   { path: '/kontakt', component: kontakt },
-
-
 ]
 
 const router = createRouter({
