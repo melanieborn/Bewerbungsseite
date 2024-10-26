@@ -2,19 +2,18 @@
     <v-container>
         <v-row>
             <v-col cols="4">
-              <p  class="bild"> Sie befinden sich hier: Kentnisse" </p>
                 <h1> Melanie Bornkessel </h1>
-                <p>Frontend Entwicklerin </p>
+                <p>Fachinformatikerin für Anwendungsentwicklung </p>
                 <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
 
             </v-col>
             <v-col cols="8" >
-                <h3 class="rechts"> Hier stelle ich Ihnen meine wichtigsten Kenntnisse vor </h3>
+                <h3 class="rechts"> Eine kleine Übersicht meiner wichtigsten Kenntnisse </h3>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-               <p class="prog"> Programmierung </p>
+               <p class="prog"> Programmierung: </p>
             </v-col>
             <v-col cols="8">
                <p class="kent"> JavaScript, HTML, CSS, JSON, Phyton, PHP, MySql, Ajax, npm </p>
@@ -22,15 +21,15 @@
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog"> Frameworks </p>
+              <p class="prog"> Frameworks: </p>
             </v-col>
             <v-col cols="8">
-              <p class="kent"> Vue.js, vuetify, Laravel, Bootstrap </p>
+              <p class="kent"> Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog"> Sonstiges </p>
+              <p class="prog"> Sonstiges: </p>
             </v-col>
             <v-col cols="8">
               <p class="kent"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken,
@@ -76,7 +75,7 @@
         font-weight: bold;
       }
       .prog {
-        background-color: #BC70A4;
+        background-color: lightblue;
         border-radius: 12px;
         padding: 5px;
         font-weight: bold;

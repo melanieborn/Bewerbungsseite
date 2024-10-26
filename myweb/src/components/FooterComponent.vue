@@ -37,10 +37,11 @@
     margin: 0 10px;
   }
   a {
-    color:  black;
+    color:  white;
   }
   .card {
-    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    background-image: linear-gradient(indigo, blue);
+    color: white;
   }
   </style>
   

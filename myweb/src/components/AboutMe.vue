@@ -2,11 +2,11 @@
     <v-container>
         <v-row>
             <v-col cols="4">
-              <p  class="bild"> Sie befinden sich hier: Über mich </p>
                 <h1> Melanie Bornkessel </h1>
-                <p> Junior Frontend Entwicklerin </p>
+                <p> Tel.: 01575-4900553 </p>
+                <p> e-mail: melanie.bornkessel@web.de </p>
                 <img class="bild1" src="@/assets/draussen2.jpg">
-                <p> Gerne sende ich Ihnen meinen aktuellen Lebenslauf zu </p>
+                <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
             </v-col>
             <v-col cols="8">
               <h3>Über mich</h3>

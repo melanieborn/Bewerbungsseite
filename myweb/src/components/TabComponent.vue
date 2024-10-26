@@ -10,11 +10,11 @@
         </v-col>
         <nav>
           <v-col>
-            <v-btn variant="text" @click="goToStart" class="button">Startseite</v-btn>
-            <v-btn variant="text" @click="goToAbout" class="button">Über mich</v-btn>
-            <v-btn variant="text" @click="goToKenntnisse" class="button">Kenntnisse</v-btn>
-            <v-btn variant="text" @click="goToKontakt" class="button">Kontakt</v-btn>
-
+            <RouterLink to="/"   class="button" 
+            >Startseite</RouterLink>
+            <RouterLink to="/about"  class="button">Über mich</RouterLink>
+            <RouterLink to="/kenntnisse" class="button">Kenntnisse</RouterLink>
+            <RouterLink to="/kontakt" class="button">Kontakt</RouterLink>
   </v-col>
   </nav>
 </v-card-text>
@@ -88,7 +88,7 @@
     margin: 0 10px;
   }
   .oben {
-    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    background-image: linear-gradient(indigo, blue);
   }
   .name {
     text-align: left;
@@ -101,11 +101,14 @@
     color: grey;
   }
   .button {
-    margin-right: 5px;
-    color: black
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
   }
   .vbtn {
     background-color: brown;
   }
+
   </style>
   
