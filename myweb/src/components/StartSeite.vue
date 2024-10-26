@@ -8,11 +8,10 @@
     </v-row>  -->
     <v-row>
         <v-col cols="4">
-          <p  class="bild"> Sie befinden sich hier: Startseite </p>
             <h1> Melanie Bornkessel </h1>
-            <p>  Frontend Entwicklerin </p>
+            <p>  Fachinformatikerin für Anwendungsentwicklung </p>
             <img class="bild1" src="@/assets/Tastatur.jpg">
-            <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
+            <p> FE - Entwickler sind keine Designer </p>
         </v-col>
         <v-col cols="8" >
             <h1 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h1>
