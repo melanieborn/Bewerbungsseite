@@ -14,7 +14,6 @@
             >Startseite</RouterLink>
             <RouterLink to="/about"  class="button">Über mich</RouterLink>
             <RouterLink to="/kenntnisse" class="button">Kenntnisse</RouterLink>
-            <RouterLink to="/kontakt" class="button">Kontakt</RouterLink>
   </v-col>
   </nav>
 </v-card-text>

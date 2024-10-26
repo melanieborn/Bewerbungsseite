@@ -78,8 +78,7 @@
         font-weight: bold;
       }
       .prog {
-        background-color: #BFD641;
-        border-radius: 12px;
+       border-radius: 12px;
         padding: 5px;
         font-weight: bold;
       }

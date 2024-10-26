@@ -1,8 +1,19 @@
 <template>
     <v-container>
       <v-card variant="text">
-        <v-card-text>
-          <v-row class="card">
+        <v-card-text class="card">
+          <v-row >
+            <v-col cols="4">
+              <p class="prog"><v-icon class="mimg">mdi-phone-classic</v-icon>030-55235339</p>
+    </v-col>
+    <v-col cols="4">
+              <p class="prog"><v-icon class="mimg">mdi-phone</v-icon>01575-4900553</p>
+    </v-col>
+    <v-col cols="4">
+      <v-icon>mdi-email</v-icon> <a class="kent" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
+    </v-col>
+    </v-row>
+          <v-row>
             <v-col cols="12">
       <a>
         Diese Seite wurde von mir mit JavaScript, vue.js und vuetify als GitHub Projekt erstellt
@@ -42,6 +53,12 @@
   .card {
     background-image: linear-gradient(indigo, blue);
     color: white;
+  }
+  .prog {
+    font-weight: bold;
+  }
+  .mimg {
+    margin-right: 5px;
   }
   </style>
   

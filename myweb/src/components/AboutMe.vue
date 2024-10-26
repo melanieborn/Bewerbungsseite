@@ -3,8 +3,7 @@
         <v-row>
             <v-col cols="4">
                 <h1> Melanie Bornkessel </h1>
-                <p> Tel.: 01575-4900553 </p>
-                <p> e-mail: melanie.bornkessel@web.de </p>
+                <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
                 <img class="bild1" src="@/assets/draussen2.jpg">
                 <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
             </v-col>
