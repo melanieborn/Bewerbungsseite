@@ -34,18 +34,26 @@
               <p class="kent"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, responsive Design, Xampp, Adobe, Material Design, SPA, Datenbanken,
                  automatisierte Integrationtest, Swagger </p>
             </v-col>
-        </v-row>
+     </v-row>
+     <v-row>
+            <v-col cols="4">
+              <p class="prog"> Nachweise als Pdf Download </p>
+            </v-col>
+            <v-col cols="8" class="pdfcol">
+              <a href="/files/zeugnis.pdf" download class="pdf">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdf">Scrum,</a>
+              <a href="/files/ITIL.pdf" download class="pdf">ITIL</a>
+            </v-col>
+     </v-row>
     </v-container>
       </template>
       
       <script>
       export default {
         name: 'StartSeite',
-        props: {
-          msg: String
-        },
-        data() {
-        return { timestamp: " " }
+     data() {
+        return { timestamp: " ",
+
+         }
       },
         created() {
                   setInterval(this.getNow, 1000);
@@ -90,5 +98,13 @@
         text-align: left;
         font-size: 10px;
       }
+      .pdf {
+       margin-right: 15px;
+      color: black;
+      font-size: 25px;
+  }
+  .pdfcol {
+    text-align: left;
+  }
       </style>
       
