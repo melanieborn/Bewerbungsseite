@@ -82,7 +82,7 @@
         font-weight: bold;
       }
       .prog {
-        background-color: lightblue;
+        background-color: #005f6a;
         border-radius: 12px;
         padding: 5px;
         font-weight: bold;

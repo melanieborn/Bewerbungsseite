@@ -15,13 +15,12 @@
         </v-col>
         <v-col cols="8" >
             <h1 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h1>
-            <p class="links"> Es freut mich, daß ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+            <p class="links"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>
             <br />
             <p class="links"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
-                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne telefonisch oder per e-mail.
-                Gerne kann ich Ihnen auch einen detaillierten Lebenslauf zukommen lassen.
+                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
             <p class="links"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>

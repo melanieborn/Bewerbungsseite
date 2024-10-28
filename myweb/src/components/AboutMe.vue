@@ -25,10 +25,10 @@
                 erfolgreich absolvieren.
               </a>  <br />
               <a>
-                Während 2 Praktikas habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS gearbeitet.
+                Bis zu meiner Anstellung bei der FP DBS habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
                 Bei der FP DBS habe ich als Frontend- und Backendentwicklerin gearbeitet und war in einem
-                Team zur Erstellung automatisierter Integrationtests mit python. Spezialisiert habe ich mich 
-                auf die Frontendentwicklung in der ich mich weiterentwickeln möchte. 
+                Team zur Erstellung automatisierter Integrationtests in python. Spezialisiert habe ich mich 
+                auf die Frontendprogrammierung in der ich mich weiterentwickeln möchte. 
                 Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
                 einen ausführlichen Lebenslauf zukommen.
               </a>

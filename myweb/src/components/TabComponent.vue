@@ -87,7 +87,7 @@
     margin: 0 10px;
   }
   .oben {
-    background-image: linear-gradient(indigo, blue);
+    background-image: linear-gradient(blue,indigo);
   }
   .name {
     text-align: left;
@@ -101,13 +101,17 @@
   }
   .button {
     margin-right: 10px;
-    color: black;
+    color: grey;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
   }
   .vbtn {
     background-color: brown;
   }
+  .routerLink{
+     text-decoration: none;
+ }
 
   </style>
   
