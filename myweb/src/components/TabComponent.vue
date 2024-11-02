@@ -91,13 +91,13 @@
   }
   .name {
     text-align: left;
-    color: grey;
+    color: whitesmoke;
     font-size: 30px;
     font-weight: bold;
   }
   .date {
     text-align: right;
-    color: grey;
+    color: whitesmoke;
   }
   .button {
     margin-right: 10px;

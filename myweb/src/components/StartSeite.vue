@@ -11,10 +11,10 @@
             <h1> Melanie Bornkessel </h1>
             <p>  Fachinformatikerin für Anwendungsentwicklung </p>
             <img class="bild1" src="@/assets/Tastatur.jpg">
-            <p> FE - Entwickler sind keine Designer </p>
+            <p> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
         </v-col>
         <v-col cols="8" >
-            <h1 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h1>
+            <h3 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h3>
             <p class="links"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>
@@ -107,6 +107,7 @@
   }
   .sign {
     font-family: Lucida Handwriting;
+    font-size: 20px;
   }
   </style>
   

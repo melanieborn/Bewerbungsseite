@@ -7,7 +7,7 @@
                 <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             </v-col>
             <v-col cols="8" >
-                <h3 class="rechts"> Eine kleine Übersicht meiner wichtigsten Kenntnisse </h3>
+                <h3 class="rechts"> Eine Übersicht meiner wichtigsten Kenntnisse </h3>
             </v-col>
         </v-row>
         <v-row>

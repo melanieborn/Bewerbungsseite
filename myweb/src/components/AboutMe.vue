@@ -5,13 +5,13 @@
                 <h1> Melanie Bornkessel </h1>
                 <a href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
                 <img class="bild1" src="@/assets/draussen2.jpg">
-                <p> Wenn es holprig wird schnallt man sich an und steigt nicht aus </p>
+                <p> In meiner Freizeit bin ich ehrenamtlich für die Bahnhofsmission tätig. </p>
             </v-col>
             <v-col cols="8">
               <h3>Über mich</h3>
                 <a>Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
-                  Amt für kommunale Filmarbeit und dem Max-Ophüls-Preis der Landeshauptstadt Saarbrücken 
+                  Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
                 sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
                 zuständig.  </a> <br />
                 <a>
@@ -28,7 +28,7 @@
                 Bis zu meiner Anstellung bei der FP DBS habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
                 Bei der FP DBS habe ich als Frontend- und Backendentwicklerin gearbeitet und war in einem
                 Team zur Erstellung automatisierter Integrationtests in python. Spezialisiert habe ich mich 
-                auf die Frontendprogrammierung in der ich mich weiterentwickeln möchte. 
+                auf die Frontendprogrammierung, gerne nach Designvorlagen, in der ich mich weiterentwickeln möchte. 
                 Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
                 einen ausführlichen Lebenslauf zukommen.
               </a>
