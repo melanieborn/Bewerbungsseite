@@ -1,31 +1,32 @@
 <template>
 <v-container>
-<!--      <v-row class="oben">
-        <v-col cols="12">
-            <p class="name"> BeWERBUNGsseite </p>
-            <p class="date">  {{ timestamp }} </p>
-        </v-col>
-    </v-row>  -->
+
     <v-row>
         <v-col cols="4">
-            <h1> Melanie Bornkessel </h1>
-            <p>  Fachinformatikerin für Anwendungsentwicklung </p>
+          <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
+            <h4 class="hidden-md-and-up">Melanie Bornkessel</h4>
+            <p class="hidden-sm-and-down">  Fachinformatikerin für Anwendungsentwicklung </p>
+            <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
+            <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
+            <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             <img class="bild1" src="@/assets/Tastatur.jpg">
-            <p> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
+            <p class="hidden-sm-and-down"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
+            <p class="hidden-md-and-up resp"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
         </v-col>
         <v-col cols="8" >
-            <h3 class="rechts"> Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite </h3>
-            <p class="links"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+          <h2 class="hidden-sm-and-down pa-5" style="font-size:2vw;">Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h2>
+              <h4 class="hidden-md-and-up pa-2" style="font-size:2vw;">Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h4>
+            <p class="links" style="font-size:1.8vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>
             <br />
-            <p class="links"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+            <p class="links" style="font-size:1.8vw;"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
                 Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
-            <p class="links"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
+            <p class="links" style="font-size:1.8vw;"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
             <br />
-            <p class="links"> Viele Grüße </p>
+            <p class="links" style="font-size:1.8vw;"> Viele Grüße </p>
             <p class="sign"> Melanie Bornkessel </p>
 
 
@@ -75,9 +76,6 @@
     display: inline-block;
     margin: 0 10px;
   }
-  a {
-    color: #42b983;
-  }
   .oben {
     background-color: brown;
   }
@@ -98,6 +96,8 @@
   .bild1 {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+    height: auto;
   }
   .links {
     text-align: left;
@@ -108,6 +108,9 @@
   .sign {
     font-family: Lucida Handwriting;
     font-size: 20px;
+  }
+      .resp {
+    font-size: 8px;
   }
   </style>
   
