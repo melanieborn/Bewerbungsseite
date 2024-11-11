@@ -3,13 +3,13 @@
       <v-card variant="text">
         <v-card-text class="card">
           <v-row >
-            <v-col cols="4">
+            <v-col cols="4" xs="12">
               <p class="prog"><v-icon class="mimg">mdi-phone-classic</v-icon>030-55235339</p>
     </v-col>
-    <v-col cols="4">
-              <p class="prog"><v-icon class="mimg">mdi-phone</v-icon>01575-4900553</p>
+    <v-col cols="4" xs="12">
+              <p class="prog"><v-icon class="mimg">mdi-phone</v-icon>015754900553</p>
     </v-col>
-    <v-col cols="4">
+    <v-col cols="4" xs="12">
       <v-icon>mdi-email</v-icon> <a class="kent" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
     </v-col>
     </v-row>
