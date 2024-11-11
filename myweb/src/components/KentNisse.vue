@@ -2,8 +2,8 @@
     <v-container>
         <v-row>
             <v-col cols="4">
-              <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
-            <h4 class="hidden-md-and-up">Melanie Bornkessel</h4>
+              <h1 class="hidden-sm-and-down" style="font-size:2vw;"> Melanie Bornkessel </h1>
+            <h4 class="hidden-md-and-up" style="font-size:2vw;">Melanie Bornkessel</h4>
             <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
           </v-col>
