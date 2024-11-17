@@ -13,7 +13,7 @@
                 <p class="hidden-md-and-up resp"> In meiner Freizeit bin ich ehrenamtlich tätig. </p>
             </v-col>
             <v-col cols="8">
-              <h2 class="hidden-sm-and-down pa-5" style="font-size:2vw;">Darf ich vorstellen:</h2>
+              <h1 class="hidden-sm-and-down pa-5" >Darf ich vorstellen:</h1>
               <h4 class="hidden-md-and-up pa-5" style="font-size:2vw;">Darf ich vorstellen:</h4>
                 <p class="links hidden-sm-and-down" >Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim

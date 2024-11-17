@@ -2,48 +2,61 @@
     <v-container>
         <v-row>
             <v-col cols="4">
-              <h1 class="hidden-sm-and-down" style="font-size:2vw;"> Melanie Bornkessel </h1>
-            <h4 class="hidden-md-and-up" style="font-size:2vw;">Melanie Bornkessel</h4>
+              <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
+            <h4 class="hidden-md-and-up">Melanie Bornkessel</h4>
             <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
           </v-col>
             <v-col cols="8" >
-                <h2 class="hidden-sm-and-down pt-12" style="font-size:2vw;"> Eine Übersicht meiner wichtigsten Kenntnisse </h2>
+                <h1 class="hidden-sm-and-down pa-5"> Eine Übersicht meiner wichtigsten Kenntnisse </h1>
                 <h4 class="hidden-md-and-up pt-5" style="font-size:2vw;">Eine Übersicht meiner wichtigsten Kenntnisse</h4>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-               <p  class="prog" style="font-size:1.8vw;"> Programmierung: </p>
+               <p  class="prog hidden-sm-and-down" > Programmierung: </p>
+               <p  class="hidden-md-and-up prog-resp" > Programmierung: </p>
             </v-col>
             <v-col cols="8">
-               <p class="kent" style="font-size:2.1vw;"> JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm </p>
+               <p class="kent hidden-sm-and-down" > JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm </p>
+               <p class="kent hidden-md-and-up resp" > JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm </p>
+              </v-col>
+        </v-row>
+        <v-row>
+            <v-col cols="4">
+              <p class="prog hidden-sm-and-down"> Frameworks: </p>
+              <p class="hidden-md-and-up prog-resp"> Frameworks: </p>
+            </v-col>
+            <v-col cols="8">
+              <p class="kent hidden-sm-and-down" > Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
+              <p class="kent hidden-md-and-up resp" > Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="4">
-              <p class="prog" style="font-size:1.8vw;"> Frameworks: </p>
+              <p class="prog hidden-sm-and-down"> Sonstiges: </p>
+              <p class="hidden-md-and-up prog-resp"> Sonstiges: </p>
+
             </v-col>
             <v-col cols="8">
-              <p class="kent" style="font-size:2.1vw;"> Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col cols="4">
-              <p class="prog" style="font-size:1.8vw;"> Sonstiges: </p>
-            </v-col>
-            <v-col cols="8">
-              <p class="kent" style="font-size:2.1vw;"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
+              <p class="kent hidden-sm-and-down"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
+                 automatisierte Integrationtest, Swagger </p>
+                 <p class="kent hidden-md-and-up resp"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
                  automatisierte Integrationtest, Swagger </p>
             </v-col>
      </v-row>
      <v-row>
             <v-col cols="4">
-              <p class="prog" style="font-size:1.8vw;"> Nachweise als Pdf Download </p>
+              <p class="prog hidden-sm-and-down"> Nachweise als Pdf Download </p>
+              <p class="hidden-md-and-up prog-resp"> Nachweise als Pdf Download </p>
+
             </v-col>
             <v-col cols="8" class="pdfcol">
-              <a href="/files/zeugnis.pdf" download class="pdf" style="font-size:2.1vw;">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdf" style="font-size:2.1vw;">Scrum,</a>
-              <a href="/files/ITIL.pdf" download class="pdf" style="font-size:2.1vw;">ITIL</a>
+              <a href="/files/zeugnis.pdf" download class="pdf hidden-sm-and-down">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdf hidden-sm-and-down">Scrum,</a>
+              <a href="/files/ITIL.pdf" download class="pdf hidden-sm-and-down">ITIL</a>
+              <a href="/files/zeugnis.pdf" download class="pdfresp hidden-md-and-up">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdfresp hidden-md-and-up">Scrum,</a>
+              <a href="/files/ITIL.pdf" download class="pdfresp hidden-md-and-up">ITIL</a>
+
             </v-col>
      </v-row>
     </v-container>
@@ -88,6 +101,7 @@
         border-radius: 12px;
         padding: 5px;
         font-weight: bold;
+        font-size: 25px;
       }
       .prog-resp {
         background-color: #005f6a;
@@ -98,7 +112,7 @@
       }
       .kent {
         text-align: left;
-        font-size: 25px;
+        font-size: 30px;
       }
       .rechts {
         font-size: 20px;
@@ -110,7 +124,12 @@
       .pdf {
        margin-right: 15px;
       color: black;
-      font-size: 25px;
+      font-size: 30px;
+  }
+  .pdfresp {
+    margin-right: 15px;
+      color: black;
+      font-size: 10px;
   }
   .pdfcol {
     text-align: left;

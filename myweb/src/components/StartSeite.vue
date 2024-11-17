@@ -14,20 +14,29 @@
             <p class="hidden-md-and-up resp"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
         </v-col>
         <v-col cols="8" >
-          <h2 class="hidden-sm-and-down pa-5" style="font-size:2vw;">Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h2>
+          <h1 class="hidden-sm-and-down pa-5" >Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h1>
               <h4 class="hidden-md-and-up pa-2" style="font-size:2vw;">Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h4>
-            <p class="links" style="font-size:1.8vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+            <p class="links hidden-sm-and-down pt-5" style="font-size:1.3vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+                Erkundung meiner Seite.
+            </p>
+            <p class="links hidden-md-and-up resp"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>
             <br />
-            <p class="links" style="font-size:1.8vw;"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
+            </p>
+            <p class="links hidden-md-and-up resp" > Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
                 Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
-            <p class="links" style="font-size:1.8vw;"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
+            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
+            <p class="links hidden-md-and-up resp" > Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
+
             <br />
-            <p class="links" style="font-size:1.8vw;"> Viele Grüße </p>
-            <p class="sign"> Melanie Bornkessel </p>
+            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Viele Grüße </p>
+            <p class="links hidden-md-and-up resp" > Viele Grüße </p>
+            <p class="sign" style="font-size:1.3vw;"> Melanie Bornkessel </p>
 
 
         </v-col>
