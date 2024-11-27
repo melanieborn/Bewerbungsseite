@@ -14,8 +14,8 @@
             <p class="hidden-md-and-up resp"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
         </v-col>
         <v-col cols="8" >
-          <h1 class="hidden-sm-and-down pa-5" >Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h1>
-              <h4 class="hidden-md-and-up pa-2" style="font-size:2vw;">Ich begrüße Sie herzlich auf meiner BeWERBUNGsseite</h4>
+          <h1 class="hidden-sm-and-down pa-5" >Herzlich willkommen auf meiner BeWERBUNGsseite</h1>
+              <h4 class="hidden-md-and-up pa-2" style="font-size:2vw;">Herzlich willkommen auf meiner BeWERBUNGsseite</h4>
             <p class="links hidden-sm-and-down pt-5" style="font-size:1.3vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite.
             </p>

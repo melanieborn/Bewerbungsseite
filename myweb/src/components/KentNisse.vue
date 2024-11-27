@@ -8,8 +8,8 @@
             <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
           </v-col>
             <v-col cols="8" >
-                <h1 class="hidden-sm-and-down pa-5"> Eine Übersicht meiner wichtigsten Kenntnisse </h1>
-                <h4 class="hidden-md-and-up pt-5" style="font-size:2vw;">Eine Übersicht meiner wichtigsten Kenntnisse</h4>
+                <h1 class="hidden-sm-and-down pa-5"> Meine wichtigsten Kenntnisse: </h1>
+                <h4 class="hidden-md-and-up pt-5" style="font-size:2vw;">Meine wichtigsten Kenntnisse:</h4>
             </v-col>
         </v-row>
         <v-row>

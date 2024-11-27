@@ -25,16 +25,14 @@
                   Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
                 sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
                 zuständig.  </p>
-                <br />
                 <p class="links hidden-sm-and-down">
-                Auch privat habe ich mich immer für Technik und Programmierung interessiert. Mit meinem
+                Privat interessiere ich mich für Technik und Programmierung. Mit meinem
                 Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
                 wechseln.</p>
                 <p class="links hidden-md-and-up resp">
-                Auch privat habe ich mich immer für Technik und Programmierung interessiert. Mit meinem
+                Privat interessiere ich mich für Technik und Programmierung. Mit meinem
                 Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
                 wechseln.</p>
-                <br />
                 <p class="links hidden-sm-and-down">
                 Nach einem Arbeitsunfall auf Montage als Servicetechnikerin der Telekom konnte ich endlich
                 meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
@@ -45,22 +43,17 @@
                 meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
                 erfolgreich absolvieren.
                 </p>
-                <br />
               <p class="links hidden-sm-and-down">
-                Bis zu meiner Anstellung bei der FP DBS habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS habe ich als Frontend- und Backendentwicklerin gearbeitet und war in einem
-                Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
-                auf die Frontendprogrammierung, gerne nach Designvorlagen, in der ich mich weiterentwickeln möchte. 
-                Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
-                einen ausführlichen Lebenslauf zukommen.
+                Bis zu meiner Anstellung bei der FP DBS, als Frontend- und Backendentwicklerin, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
+                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
+                auf die Frontendprogrammierung, gerne nach Designvorlagen, in der ich mich stetig weiterentwickele. 
+                Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
               </p>
               <p class="links hidden-md-and-up resp">
-                Bis zu meiner Anstellung bei der FP DBS habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS habe ich als Frontend- und Backendentwicklerin gearbeitet und war in einem
-                Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
-                auf die Frontendprogrammierung, gerne nach Designvorlagen, in der ich mich weiterentwickeln möchte. 
-                Sie möchten mehr über meinen Werdegang erfahren? Kontaktieren Sie mich gerne und ich lasse Ihnen 
-                einen ausführlichen Lebenslauf zukommen.
+                Bis zu meiner Anstellung bei der FP DBS, als Frontend- und Backendentwicklerin, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
+                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
+                auf die Frontendprogrammierung, gerne nach Designvorlagen, in der ich mich stetig weiterentwickele. 
+                Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
               </p>
             </v-col>
         </v-row>
@@ -118,6 +111,8 @@
       }
       .links {
         text-align: left;
+        margin-bottom: 5px;
+        font-size: 18px;
       }
       .date {
         text-align: right;
