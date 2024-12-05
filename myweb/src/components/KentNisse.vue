@@ -97,8 +97,9 @@
         font-weight: bold;
       }
       .prog {
-        background-color: #005f6a;
+        border-color: #005f6a;
         border-radius: 12px;
+        border-style: solid;
         padding: 5px;
         font-weight: bold;
         font-size: 25px;
