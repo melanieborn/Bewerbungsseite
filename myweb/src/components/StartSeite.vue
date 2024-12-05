@@ -4,7 +4,7 @@
     <v-row>
         <v-col cols="4">
           <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
-            <h4 class="hidden-md-and-up">Melanie Bornkessel</h4>
+            <h4 class="hidden-md-and-up" style="font-size:2.1vw;">Melanie Bornkessel</h4>
             <p class="hidden-sm-and-down">  Fachinformatikerin für Anwendungsentwicklung </p>
             <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
             <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>

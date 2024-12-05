@@ -87,7 +87,7 @@
     margin: 0 10px;
   }
   .oben {
-    background-image: linear-gradient(blue,indigo);
+    background-image: linear-gradient(darkblue,indigo);
   }
   .name {
     text-align: left;
