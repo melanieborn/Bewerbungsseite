@@ -1,31 +1,35 @@
 <template>
-    <v-container>
+    <v-container fluid>
+      <v-row dense>
+        <v-col>
       <v-card class="mt-5">
-        <v-card-title> Programmierung </v-card-title>
+        <v-card-title class="font-weight-black"> Programmierung </v-card-title>
         <v-card-text>
           JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title> Frameworks </v-card-title>
+        <v-card-title class="font-weight-black"> Frameworks </v-card-title>
         <v-card-text>
           Vue.js, vuetify, vue-router, Laravel, Bootstrap, Wireframes
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title> Sonstiges </v-card-title>
+        <v-card-title class="font-weight-black"> Sonstiges </v-card-title>
         <v-card-text>
           Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
           automatisierte Integrationtest, Swagger        
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title> Nachweise als Pdf Download </v-card-title>
+        <v-card-title class="font-weight-black"> Nachweise als Pdf Download </v-card-title>
         <v-card-text>
-          <a href="/files/zeugnis.pdf" download >Zeugnis,</a>  <a href="/files/scrum.pdf" download>Scrum,</a>
+          <a href="/files/zeugnis.pdf" class="mr-5" download >Zeugnis</a>  <a href="/files/scrum.pdf" class="mr-5" download>Scrum</a>
               <a href="/files/ITIL.pdf" download >ITIL</a>
         </v-card-text>
       </v-card>
+    </v-col>
+    </v-row>
     </v-container>
       </template>
       
