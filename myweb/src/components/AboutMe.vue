@@ -1,8 +1,11 @@
 <template>
     <v-container>
+      <v-row>
+        <v-col></v-col>
+      </v-row>
         <v-row>
             <v-col cols="4">
-              <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
+              <h2 class="hidden-sm-and-down"> Melanie Bornkessel </h2>
             <h4 class="hidden-md-and-up" style="font-size:2.1vw;">Melanie Bornkessel</h4>
             <p class="hidden-sm-and-down">  Fachinformatikerin für Anwendungsentwicklung </p>
             <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
@@ -13,17 +16,15 @@
                 <p class="hidden-md-and-up resp"> In meiner Freizeit bin ich ehrenamtlich tätig. </p>
             </v-col>
             <v-col cols="8">
-              <h1 class="hidden-sm-and-down pa-5" >Darf ich vorstellen:</h1>
-              <h4 class="hidden-md-and-up pa-5" style="font-size:2vw;">Darf ich vorstellen:</h4>
-                <p class="links hidden-sm-and-down" style="font-size:1.2vw;" >Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
+                <p class="links hidden-sm-and-down pt-5" style="font-size:1.2vw;">Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
                   Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
-                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
+                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer mit DOS
                 zuständig.  </p> 
-                <p class="links hidden-md-and-up resp" >Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
+                <p class="links hidden-md-and-up resp pt-5" >Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
                   Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
                   Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
-                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer in DOS
+                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer mit DOS
                 zuständig.  </p>
                 <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
                 Privat interessiere ich mich für Technik und Programmierung. Mit meinem
@@ -124,7 +125,7 @@
         font-family: Lucida Handwriting;
       }
       .resp {
-    font-size: 8px;
+    font-size: 10px;
   }
       </style>
       

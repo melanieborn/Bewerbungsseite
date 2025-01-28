@@ -16,7 +16,7 @@
           <v-row>
             <v-col cols="12">
       <a>
-        Diese Seite wurde von mir mit JavaScript, vue.js und vuetify als GitHub Projekt erstellt
+        Wenn es holprig wird, steigt man nicht aus, sondern schnallt sich an!
       </a>
     </v-col>
     </v-row>
@@ -51,7 +51,7 @@
     color:  white;
   }
   .card {
-    background-image: linear-gradient(indigo, blue);
+    background-image: linear-gradient(indigo, darkblue);
     color: white;
   }
   .prog {

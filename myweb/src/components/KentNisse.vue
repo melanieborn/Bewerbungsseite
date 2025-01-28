@@ -1,64 +1,31 @@
 <template>
     <v-container>
-        <v-row>
-            <v-col cols="4">
-              <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
-            <h4 class="hidden-md-and-up" style="font-size:2.1vw;">Melanie Bornkessel</h4>
-            <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-            <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-          </v-col>
-            <v-col cols="8" >
-                <h1 class="hidden-sm-and-down pa-5"> Übersicht meiner wichtigsten Kenntnisse: </h1>
-                <h4 class="hidden-md-and-up pt-5 pdfcol" style="font-size:2vw;">Übersicht meiner wichtigsten Kenntnisse:</h4>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col cols="4">
-               <p  class="prog hidden-sm-and-down" > Programmierung: </p>
-               <p  class="hidden-md-and-up prog-resp" > Programmierung: </p>
-            </v-col>
-            <v-col cols="8">
-               <p class="kent hidden-sm-and-down" > JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm </p>
-               <p class="kent hidden-md-and-up resp" > JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm </p>
-              </v-col>
-        </v-row>
-        <v-row>
-            <v-col cols="4">
-              <p class="prog hidden-sm-and-down"> Frameworks: </p>
-              <p class="hidden-md-and-up prog-resp"> Frameworks: </p>
-            </v-col>
-            <v-col cols="8">
-              <p class="kent hidden-sm-and-down" > Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
-              <p class="kent hidden-md-and-up resp" > Vue.js, vuetify, Laravel, Bootstrap, Wireframes </p>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col cols="4">
-              <p class="prog hidden-sm-and-down"> Sonstiges: </p>
-              <p class="hidden-md-and-up prog-resp"> Sonstiges: </p>
-
-            </v-col>
-            <v-col cols="8">
-              <p class="kent hidden-sm-and-down"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
-                 automatisierte Integrationtest, Swagger </p>
-                 <p class="kent hidden-md-and-up resp"> Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
-                 automatisierte Integrationtest, Swagger </p>
-            </v-col>
-     </v-row>
-     <v-row>
-            <v-col cols="4">
-              <p class="prog hidden-sm-and-down"> Nachweise als Pdf Download </p>
-              <p class="hidden-md-and-up prog-resp"> Nachweise als Pdf Download </p>
-
-            </v-col>
-            <v-col cols="8" class="pdfcol">
-              <a href="/files/zeugnis.pdf" download class="pdf hidden-sm-and-down">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdf hidden-sm-and-down">Scrum,</a>
-              <a href="/files/ITIL.pdf" download class="pdf hidden-sm-and-down">ITIL</a>
-              <a href="/files/zeugnis.pdf" download class="pdfresp hidden-md-and-up">Zeugnis,</a>  <a href="/files/scrum.pdf" download class="pdfresp hidden-md-and-up">Scrum,</a>
-              <a href="/files/ITIL.pdf" download class="pdfresp hidden-md-and-up">ITIL</a>
-
-            </v-col>
-     </v-row>
+      <v-card class="mt-5">
+        <v-card-title> Programmierung </v-card-title>
+        <v-card-text>
+          JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm
+        </v-card-text>
+      </v-card>
+      <v-card class="mt-5">
+        <v-card-title> Frameworks </v-card-title>
+        <v-card-text>
+          Vue.js, vuetify, vue-router, Laravel, Bootstrap, Wireframes
+        </v-card-text>
+      </v-card>
+      <v-card class="mt-5">
+        <v-card-title> Sonstiges </v-card-title>
+        <v-card-text>
+          Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
+          automatisierte Integrationtest, Swagger        
+        </v-card-text>
+      </v-card>
+      <v-card class="mt-5">
+        <v-card-title> Nachweise als Pdf Download </v-card-title>
+        <v-card-text>
+          <a href="/files/zeugnis.pdf" download >Zeugnis,</a>  <a href="/files/scrum.pdf" download>Scrum,</a>
+              <a href="/files/ITIL.pdf" download >ITIL</a>
+        </v-card-text>
+      </v-card>
     </v-container>
       </template>
       

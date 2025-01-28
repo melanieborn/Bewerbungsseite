@@ -1,46 +1,41 @@
 <template>
 <v-container>
+  <v-row>
+    <v-col></v-col>
+  </v-row>
+  <v-row>
+    <v-col cols="12">
+      <h1 class="hidden-sm-and-down pa-5" >Herzlich willkommen auf meiner BeWERBUNGsseite</h1>
+      <h4 class="hidden-md-and-up pa-2">Herzlich willkommen auf meiner BeWERBUNGsseite</h4>
+    </v-col>
+  </v-row>
 
     <v-row>
-        <v-col cols="4">
-          <h1 class="hidden-sm-and-down"> Melanie Bornkessel </h1>
-            <h4 class="hidden-md-and-up" style="font-size:2.1vw;">Melanie Bornkessel</h4>
+<!--         <v-col cols="4">
             <p class="hidden-sm-and-down">  Fachinformatikerin für Anwendungsentwicklung </p>
             <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
             <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-            <img class="bild1" src="@/assets/Tastatur.jpg">
+
             <p class="hidden-sm-and-down"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
             <p class="hidden-md-and-up resp"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
-        </v-col>
-        <v-col cols="8" >
-          <h1 class="hidden-sm-and-down pa-5" >Herzlich willkommen auf meiner BeWERBUNGsseite</h1>
-              <h4 class="hidden-md-and-up pa-2" style="font-size:2vw;">Herzlich willkommen auf meiner BeWERBUNGsseite</h4>
-            <p class="links hidden-sm-and-down pt-5" style="font-size:1.3vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
-                Erkundung meiner Seite.
-            </p>
-            <p class="links hidden-md-and-up resp"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
-                Erkundung meiner Seite.
-            </p>
-            <br />
-            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
-                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
-            </p>
-            <p class="links hidden-md-and-up resp" > Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+        </v-col> -->
+        <v-col cols="12" >
+            <p style="font-size:2.0vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+                Erkundung meiner Seite. <br />
+                Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+                <br />
                 Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
-            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
-            <p class="links hidden-md-and-up resp" > Ich freue mich auf Ihren Anruf oder eine persönliche Nachricht </p>
-
-            <br />
-            <p class="links hidden-sm-and-down" style="font-size:1.3vw;"> Viele Grüße </p>
-            <p class="links hidden-md-and-up resp" > Viele Grüße </p>
-            <p class="sign" style="font-size:1.3vw;"> Melanie Bornkessel </p>
-
-
+            <img  src="@/assets/Tastatur1.png">
         </v-col>
     </v-row>
+    <v-row>
+      <v-col cols="12">
+            <p class="sign" style="font-size:2.0vw;"> Melanie Bornkessel </p>
+          </v-col>
+        </v-row>
 </v-container>
   </template>
   
@@ -120,6 +115,10 @@
   }
       .resp {
     font-size: 8px;
+  }
+  .bg-foto {
+  background: url('../assets/hintergrund.jpg') !important;
+  height: 100vh;
   }
   </style>
   
