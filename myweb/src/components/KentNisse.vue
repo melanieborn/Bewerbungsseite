@@ -3,27 +3,27 @@
       <v-row dense>
         <v-col>
       <v-card class="mt-5">
-        <v-card-title class="font-weight-black"> Programmierung </v-card-title>
-        <v-card-text>
+        <v-card-title class="font-weight-black" style="font-size:1.5vw;"> Programmierung </v-card-title>
+        <v-card-text style="font-size:1.2vw;">
           JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title class="font-weight-black"> Frameworks </v-card-title>
-        <v-card-text>
+        <v-card-title class="font-weight-black" style="font-size:1.5vw;"> Frameworks </v-card-title>
+        <v-card-text style="font-size:1.2vw;">
           Vue.js, vuetify, vue-router, Laravel, Bootstrap, Wireframes
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title class="font-weight-black"> Sonstiges </v-card-title>
-        <v-card-text>
+        <v-card-title class="font-weight-black" style="font-size:1.5vw;"> Sonstiges </v-card-title>
+        <v-card-text style="font-size:1.2vw;">
           Scrum, Azur DevOps, Kanban, Jira, Trello, Git, Xampp, Adobe, Material Design, SPA, Datenbanken,
           automatisierte Integrationtest, Swagger        
         </v-card-text>
       </v-card>
       <v-card class="mt-5">
-        <v-card-title class="font-weight-black"> Nachweise als Pdf Download </v-card-title>
-        <v-card-text>
+        <v-card-title class="font-weight-black" style="font-size:1.5vw;"> Nachweise als Pdf Download </v-card-title>
+        <v-card-text style="font-size:1.2vw;">
           <a href="/files/zeugnis.pdf" class="mr-5" download >Zeugnis</a>  <a href="/files/scrum.pdf" class="mr-5" download>Scrum</a>
               <a href="/files/ITIL.pdf" download >ITIL</a>
         </v-card-text>

@@ -5,8 +5,7 @@
   </v-row>
   <v-row>
     <v-col cols="12">
-      <h1 class="hidden-sm-and-down pa-5" >Herzlich willkommen auf meiner BeWERBUNGsseite</h1>
-      <h4 class="hidden-md-and-up pa-2">Herzlich willkommen auf meiner BeWERBUNGsseite</h4>
+      <p class="oben" >Herzlich willkommen auf meiner BeWERBUNGsseite</p>
     </v-col>
   </v-row>
 
@@ -28,7 +27,7 @@
                 Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
-            <img  src="@/assets/Tastatur1.png">
+            <img class="bild"  src="@/assets/Tastatur1.png">
         </v-col>
     </v-row>
     <v-row>
@@ -81,8 +80,9 @@
     margin: 0 10px;
   }
   .oben {
-    background-color: brown;
-  }
+    font-size:2.2vw;
+    font-weight: bold;
+    }
   .name {
     text-align: left;
     color: red;
@@ -90,9 +90,9 @@
     font-weight: bold;
   }
   .bild {
-    text-align: left;
-    font-size: 10px;
-  }
+    max-width: 100%;
+    height: auto;; 
+   }
   .rechts {
     text-align: center;
     margin-bottom: 20px;

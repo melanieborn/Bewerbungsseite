@@ -10,10 +10,10 @@
         </v-col>
         <nav>
           <v-col>
-            <RouterLink to="/"   class="button" 
+            <RouterLink to="/"   class="button" style="font-size:1.2vw;"
             >Startseite</RouterLink>
-            <RouterLink to="/about"  class="button">Über mich</RouterLink>
-            <RouterLink to="/kenntnisse" class="button">Kenntnisse</RouterLink>
+            <RouterLink to="/about"  class="button" style="font-size:1.2vw;">Über mich</RouterLink>
+            <RouterLink to="/kenntnisse" class="button" style="font-size:1.2vw;">Kenntnisse</RouterLink>
   </v-col>
   </nav>
 </v-card-text>
@@ -100,10 +100,10 @@
     color: whitesmoke;
   }
   .button {
-    margin-right: 10px;
+    margin-right: 15px;
     color: grey;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.0vw;
     text-decoration: none;
   }
   .vbtn {

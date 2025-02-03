@@ -46,16 +46,16 @@
                 </p>
               <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
                 Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
-                auf die Frontendprogrammierung in JavaScript, gerne nach Designvorlagen, in der ich mich stetig weiterentwickele. 
+                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Durch die Entwicklung eigener
+                Projekte entwickele ich meine Fähigkeiten stetig weiter.
               </p>
               <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
                 Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
               </p>
               <p class="links hidden-md-and-up resp">
                 Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Spezialisiert habe ich mich 
-                auf die Frontendprogrammierung in JavaScript, gerne nach Designvorlagen, in der ich mich stetig weiterentwickele. 
+                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Durch die Entwicklung eigener
+                Projekte entwickele ich meine Fähigkeiten stetig weiter. 
               </p>
               <p class="links hidden-md-and-up resp">
                 Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
