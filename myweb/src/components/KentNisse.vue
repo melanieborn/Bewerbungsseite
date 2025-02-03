@@ -1,8 +1,8 @@
 <template>
-    <v-container fluid>
-      <v-row dense>
+    <v-container>
+      <v-row>
         <v-col>
-      <v-card class="mt-5">
+      <v-card class="mt-10">
         <v-card-title class="font-weight-black" style="font-size:1.5vw;"> Programmierung </v-card-title>
         <v-card-text style="font-size:1.2vw;">
           JavaScript, HTML, CSS, JSON, Python, PHP, MySql, Ajax, npm
