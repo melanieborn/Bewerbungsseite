@@ -51,7 +51,7 @@
     color:  white;
   }
   .card {
-    background-image: linear-gradient(#000080, darkblue);
+    background-image: linear-gradient(#000080, #0B4C5F);
     color: white;
   }
   .prog {
