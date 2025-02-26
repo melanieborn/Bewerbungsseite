@@ -45,7 +45,7 @@
                 erfolgreich absolvieren.
                 </p>
               <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
-                Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
+                Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, konnte ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
                 Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Durch die Entwicklung eigener
                 Projekte entwickele ich meine Fähigkeiten stetig weiter.
               </p>
