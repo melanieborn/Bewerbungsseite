@@ -10,21 +10,14 @@
   </v-row>
 
     <v-row>
-<!--         <v-col cols="4">
-            <p class="hidden-sm-and-down">  Fachinformatikerin für Anwendungsentwicklung </p>
-            <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
-            <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-            <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-
-            <p class="hidden-sm-and-down"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
-            <p class="hidden-md-and-up resp"> Wenn es holprig wird, schnallt man sich an und steigt nicht aus! </p>
-        </v-col> -->
         <v-col cols="12" >
-            <p style="font-size:2.0vw;"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
+            <p style="font-size:2.0vw;" class="links"> Es freut mich, dass ich Ihre Neugier wecken konnte und wünsche Ihnen viel Spaß bei der 
                 Erkundung meiner Seite. <br />
-                Sie finden hier viele Informationen über mich, meine Kenntnisse und meine Motivation. 
+                Sie finden hier viele Informationen über:  <br />
+                - meine IT- und Programmierkenntnisse  <br />
+                - meinen beruflichen Werdegang  <br />
+                - meine Motivation
                 <br />
-                Sollten Sie weitere Fragen haben kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten.
             </p>
             <br />
             <img class="bild"  src="@/assets/Tastatur1.png">
@@ -104,7 +97,7 @@
     height: auto;
   }
   .links {
-    text-align: left;
+    text-align: left !important;
   }
   .date {
     text-align: right;

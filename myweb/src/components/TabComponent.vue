@@ -10,10 +10,10 @@
         </v-col>
         <nav>
           <v-col>
-            <RouterLink to="/"   class="button" style="font-size:1.2vw;"
+            <RouterLink to="/"   class="button" style="font-size:1.5vw;"
             >Startseite</RouterLink>
-            <RouterLink to="/about"  class="button" style="font-size:1.2vw;">Über mich</RouterLink>
-            <RouterLink to="/kenntnisse" class="button" style="font-size:1.2vw;">Kenntnisse</RouterLink>
+            <RouterLink to="/about"  class="button" style="font-size:1.5vw;">Über mich</RouterLink>
+            <RouterLink to="/kenntnisse" class="button" style="font-size:1.5vw;">Kenntnisse</RouterLink>
   </v-col>
   </nav>
 </v-card-text>

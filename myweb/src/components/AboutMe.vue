@@ -16,50 +16,27 @@
                 <p class="hidden-md-and-up resp"> In meiner Freizeit bin ich ehrenamtlich tätig. </p>
             </v-col>
             <v-col cols="8">
-                <p class="links hidden-sm-and-down pt-5" style="font-size:1.2vw;">Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
-                  Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
-                  Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
-                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer mit DOS
-                zuständig.  </p> 
-                <p class="links hidden-md-and-up resp pt-5" >Ich bin Melanie Bornkessel, eine engagierte Junior Frontend Entwicklerin.
-                  Erste Erfahrungen mit der Programmierung konnte ich während meiner Tätigkeit beim
-                  Amt für kommunale Filmarbeit und dem Max-Ophüls-Festival der Landeshauptstadt Saarbrücken 
-                sammeln. Hier war ich für die Programmierung aller Kassen-, Bar- und Kinocomputer mit DOS
-                zuständig.  </p>
-                <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
-                Privat interessiere ich mich für Technik und Programmierung. Mit meinem
+                <p class="links pt-5" style="font-size:1.3vw;">Ich bin Melanie Bornkessel, eine engagierte Junior Anwendungsentwicklerin.
+                  <br /> Während meiner Tätigkeit bei der Landeshauptstadt Saarbrücken war ich für die Programmierung der Abrechnungs- und Kassensysteme 
+                beim Amt für Kommunale Filmarbeit und dem Max-Ophüls-Festival zuständig </p> 
+                <p class="links" style="font-size:1.3vw;">
+               Mit meinem
                 Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
                 wechseln.</p>
-                <p class="links hidden-md-and-up resp">
-                Privat interessiere ich mich für Technik und Programmierung. Mit meinem
-                Umzug nach Berlin hatte ich die Möglichkeit in den technischen Bereich zu 
-                wechseln.</p>
-                <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
-                Nach einem Arbeitsunfall auf Montage als Servicetechnikerin der Telekom konnte ich endlich
-                meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
-                erfolgreich absolvieren.
-                </p>  
-                <p class="links hidden-md-and-up resp">
-                Nach einem Arbeitsunfall auf Montage als Servicetechnikerin der Telekom konnte ich endlich
-                meine Passion zum Beruf machen und eine Umschulung zur Fachinformatikerin für Anwendungsentwicklung
-                erfolgreich absolvieren.
-                </p>
-              <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
-                Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, konnte ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Durch die Entwicklung eigener
-                Projekte entwickele ich meine Fähigkeiten stetig weiter.
+              <p class="links" style="font-size:1.3vw;">
+                Nach einer Umschulung folgte eine Anstellung bei der FP DBS bei der ich in verschiedenen Projekten als Frontend und
+                Fullstack Entwicklerin, sowie der Entwicklung automatisierter Integrationtests tätig war.  <br />
+              Durch die Realisierung eigener Projekte, zur Zeit entwickele ich eine Obdachlosenseite in Zusammenarbeit
+              mit Obdachloseneinrichtungen, entwickele ich mich und meine Fähigkeiten stetig weiter.
               </p>
-              <p class="links hidden-sm-and-down" style="font-size:1.2vw;">
-                Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
+              <p class="links" style="font-size:1.3vw;"> Zur Zeit sehe ich mich in der Fullstack und Frontend-Entwicklung</p>
+              <p class="links" style="font-size:1.3vw;">
+                Vielen Dank für Ihre Aufmerksamkeit.
+                Für weitere Fragen stehe ich Ihnen natürlich gerne zur Verfügung, kontaktieren Sie mich gerne über die im Footer angegebenen Kontaktdaten. Einen 
+                ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
               </p>
-              <p class="links hidden-md-and-up resp">
-                Bis zu meiner Anstellung bei der FP DBS, bei der ich in verschiedenen Projekten als Frontend-/Backendentwicklerin gearbeitet habe, habe ich als Fullstack Entwicklerin mit PHP, HTML und CSS Erfahrungen gesammelt.
-                Bei der FP DBS war ich zudem in einem Team zur Erstellung automatisierter Integrationtests in Python. Durch die Entwicklung eigener
-                Projekte entwickele ich meine Fähigkeiten stetig weiter. 
-              </p>
-              <p class="links hidden-md-and-up resp">
-                Meinen ausführlichen Lebenslauf lasse ich Ihnen auf Anfrage gerne zukommen.
-              </p>
+
+
             </v-col>
         </v-row>
     </v-container>
