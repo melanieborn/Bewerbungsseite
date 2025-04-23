@@ -10,7 +10,7 @@
               <p class="prog"><v-icon class="mimg">mdi-phone</v-icon>015754900553</p>
     </v-col>
     <v-col cols="4" xs="12">
-      <v-icon>mdi-email</v-icon> <a class="kent" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
+      <v-icon class="prog">mdi-email</v-icon> <a class="prog" href="mailto:melanie.bornkessel@web.de">melanie.bornkessel@web.de</a>
     </v-col>
     </v-row>
           <v-row>
@@ -51,11 +51,10 @@
     color:  white;
   }
   .card {
-    background-image: linear-gradient(#000080, #0B4C5F);
-    color: white;
-  }
+    background-color: #0061a5;  }
   .prog {
     font-weight: bold;
+    color: white;
   }
   .mimg {
     margin-right: 5px;
