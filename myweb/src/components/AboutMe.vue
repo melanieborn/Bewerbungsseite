@@ -11,7 +11,8 @@
             <p class="hidden-md-and-up resp">  Fachinformatikerin für Anwendungsentwicklung </p>
             <a class="hidden-sm-and-down" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
             <a class="hidden-md-and-up resp" href="https://www.linkedin.com/in/melanie-bornkessel-b3a143194">LinkedIn Profil</a>
-                <img class="bild1" src="@/assets/draussen2.jpg">
+            <br />
+            <img class="bild1" src="@/assets/ichklein.jpg">
                 <p class="hidden-sm-and-down"> In meiner Freizeit bin ich ehrenamtlich tätig. </p>
                 <p class="hidden-md-and-up resp"> In meiner Freizeit bin ich ehrenamtlich tätig. </p>
             </v-col>
@@ -88,7 +89,7 @@
       .bild1 {
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 100%;
+        width: 70%;
         height: auto;
       }
       .links {

@@ -28,6 +28,25 @@
               <a href="/files/ITIL.pdf" download >ITIL</a>
         </v-card-text>
       </v-card>
+      <v-card class="mt-10">
+        <v-card-title class="font-weight-black" style="font-size:1.5vw;"> eigene Projekte </v-card-title>
+        <v-card-text style="font-size:1.2vw;">
+          BeWERBUNGsseite
+          <p>
+      Obdachlosen - Wiki
+      <v-tooltip max-width="300px"
+        activator="parent"
+        location="bottom"
+      >
+     Nach umfangreicher Bedarfsanalyse und Planung des Aufbaus der Webseite, habe ich nun mit der Umsetzung
+    begonnen. Im 1. Arbeitsschritt habe ich ein grobes Layout erstellt, das ich nun nach und nach mit 
+    Inhalten und Funktionalitäten fülle. Im 2. Arbeitsschritt werde ich das BE (PHP) anbinden. AUF ANFRAGE SENDE
+    ICH IHNEN GERNE DEN LINK ZU GITHUB ZU FÜR CODEBEISPIELE.
+    </v-tooltip>
+    <v-icon style="font-size:30px;">mdi-information-outline</v-icon> 
+    </p>
+        </v-card-text>
+      </v-card>
     </v-col>
     </v-row>
     </v-container>
